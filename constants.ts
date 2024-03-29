@@ -89,3 +89,24 @@ export const StoryItems = [
     imageSrc: "/user10.png",
   },
 ];
+
+export const MobileNavigationItems = [
+  {
+    icon: "/Home.svg",
+  },
+  {
+    icon: "/Share.svg",
+  },
+  {
+    icon: "/Reels.svg",
+  },
+  {
+    icon: "/Add.svg",
+  },
+  {
+    icon: "/Messenger.svg",
+  },
+  {
+    icon: "/User.svg",
+  },
+];

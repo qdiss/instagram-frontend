@@ -41,10 +41,10 @@ const Storys = () => {
   return (
     <div
       ref={containerRef}
-      className="overflow-x-hidden relative w-full lg:w-[740px]"
+      className="overflow-x-hidden relative w-[680px] lg:w-[740px]"
     >
       <div
-        className="flex whitespace-nowrap lg:gap-3 gap-1 transition-transform"
+        className="flex whitespace-nowrap lg:gap-3 gap-1 transition-transform z-10"
         style={{ transform: `translateX(-${translate}px)` }}
       >
         {StoryItems.map((item) => (
@@ -53,7 +53,7 @@ const Storys = () => {
             className="flex flex-col items-center"
             style={{ minWidth: "80px" }}
           >
-            <Avatar className="w-16 h-16 border">
+            <Avatar className="w-16 h-16 border z-10">
               <Image
                 src={item.imageSrc}
                 alt={item.username}
