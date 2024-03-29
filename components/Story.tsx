@@ -39,9 +39,12 @@ const Storys = () => {
   }, [translate]);
 
   return (
-    <div ref={containerRef} className="overflow-x-hidden relative">
+    <div
+      ref={containerRef}
+      className="overflow-x-hidden relative w-full lg:w-[740px]"
+    >
       <div
-        className="flex whitespace-nowrap gap-3 transition-transform w-[700px]"
+        className="flex whitespace-nowrap lg:gap-3 gap-1 transition-transform"
         style={{ transform: `translateX(-${translate}px)` }}
       >
         {StoryItems.map((item) => (
@@ -50,19 +53,21 @@ const Storys = () => {
             className="flex flex-col items-center"
             style={{ minWidth: "80px" }}
           >
-            <Avatar className="w-14 h-14 border">
+            <Avatar className="w-16 h-16 border">
               <Image
                 src={item.imageSrc}
                 alt={item.username}
                 layout="fill"
-                sizes="80px"
-                className="w-20 h-20 p-0.5 border-2 border-black rounded-full"
+                sizes="100px"
+                className="w-24 h-24 p-0.5 border-2 border-black rounded-full"
               />
             </Avatar>
             <p className="text-xs mt-1 text-gray-400">{item.username}</p>
           </div>
         ))}
       </div>
+
+      {/* Navigacija */}
       {isLeftVisible && (
         <div className="absolute top-0 left-7 translate-y-3/4 z-10 opacity-70 hover:opacity-90 transition">
           <Button
