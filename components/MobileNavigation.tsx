@@ -6,7 +6,7 @@ const MobileNavigation = () => {
   return (
     <div className="border-t w-full h-[50px] bg-white dark:bg-black md:hidden flex items-center justify-evenly fixed bottom-0">
       <nav>
-        <ul className="flex gap-x-[76px]">
+        <ul className="flex items-center justify-center sm:gap-x-[76px] gap-14">
           {MobileNavigationItems.map((item) => (
             <li key={item.icon} className="cursor-pointer ">
               <Image

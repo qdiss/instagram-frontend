@@ -41,7 +41,7 @@ const Storys = () => {
   return (
     <div
       ref={containerRef}
-      className="overflow-x-hidden relative w-[680px] lg:w-[740px]"
+      className="overflow-x-hidden relative w-[510px] sm:w-[590px] md:w-[680px] lg:w-[740px] md:ml-20"
     >
       <div
         className="flex whitespace-nowrap lg:gap-3 gap-1 transition-transform z-10"
@@ -53,12 +53,11 @@ const Storys = () => {
             className="flex flex-col items-center"
             style={{ minWidth: "80px" }}
           >
-            <Avatar className="w-16 h-16 border z-10">
+            <Avatar className="w-16 h-16  border z-10">
               <Image
                 src={item.imageSrc}
                 alt={item.username}
                 layout="fill"
-                sizes="100px"
                 className="w-24 h-24 p-0.5 border-2 border-black rounded-full"
               />
             </Avatar>
@@ -98,6 +97,7 @@ const Storys = () => {
                 const newTranslate = translate + TRANSLATE_AMOUNT;
                 const edge = containerRef.current.scrollWidth;
                 const width = containerRef.current.clientWidth;
+
                 if (newTranslate + width >= edge) {
                   return edge - width;
                 }

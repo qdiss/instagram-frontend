@@ -110,3 +110,42 @@ export const MobileNavigationItems = [
     icon: "/User.svg",
   },
 ];
+
+export const TabletSidebarItems = [
+  {
+    icon: "/Home.svg",
+    path: "/",
+  },
+  {
+    icon: "/Search.svg",
+    path: "/search",
+  },
+  {
+    icon: "/Share.svg",
+    path: "/explore",
+  },
+  {
+    icon: "/Reels.svg",
+    path: "/reels",
+  },
+  {
+    icon: "/Messenger.svg",
+    path: "/direct/inbox",
+  },
+  {
+    icon: "/Like.svg",
+    path: "/likes",
+  },
+  {
+    icon: "/Add.svg",
+    path: "/create",
+  },
+  {
+    icon: "/User.svg",
+    path: "/profile",
+  },
+  {
+    icon: "/menu.svg",
+    path: "/more",
+  },
+];

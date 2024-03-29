@@ -44,8 +44,6 @@ const MobileHeader = () => {
         />
       </div>
     </nav>
-    //TODO 1: Implementirati MobileHeader
-    //TODO 2: Dodati Sidebar u Layout kada je na tabletu
   );
 };
 
