@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex items-center justify-start flex-col w-full">
           <MobileHeader />
 
-          <div className="mb-10 mt-20 md:mt-6 lg:mb-4 lg:mt-0 flex bg-indigo-500 w-full">
+          <div className="mb-10 mt-20 md:mt-6 lg:mb-4 lg:mt-0 flex w-full">
             <Storys />
           </div>
           <Posts />
