@@ -41,7 +41,7 @@ const Storys = () => {
   return (
     <div
       ref={containerRef}
-      className="overflow-x-hidden relative w-[510px] sm:w-[590px] md:w-[680px] lg:w-[740px] md:ml-20"
+      className="overflow-x-hidden relative w-fit md:w-[680px] lg:w-[740px]"
     >
       <div
         className="flex whitespace-nowrap lg:gap-3 gap-1 transition-transform z-10"
