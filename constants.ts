@@ -149,3 +149,36 @@ export const TabletSidebarItems = [
     path: "/more",
   },
 ];
+
+export const FooterItems = [
+  {
+    name: "About",
+  },
+  {
+    name: "Help",
+  },
+  {
+    name: "Press",
+  },
+  {
+    name: "API",
+  },
+  {
+    name: "Jobs",
+  },
+  {
+    name: "Privacy",
+  },
+  {
+    name: "Terms",
+  },
+  {
+    name: "Locations",
+  },
+  {
+    name: "Language",
+  },
+  {
+    name: "Meta Verified",
+  },
+];

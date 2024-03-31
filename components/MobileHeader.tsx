@@ -3,6 +3,8 @@ import { Input } from "./ui/input";
 import { DarkMode } from "./DarkMode";
 import { Heart } from "lucide-react";
 
+//TODO FIX RESPONSIVENESS
+
 const MobileHeader = () => {
   return (
     <nav className="w-full h-[56px] border-b flex items-center justify-between md:hidden fixed z-50 bg-white dark:bg-black mx-0 sm:mx-1">

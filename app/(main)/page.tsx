@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import MobileHeader from "@/components/MobileHeader";
 import MobileNavigation from "@/components/MobileNavigation";
 import Posts from "@/components/Posts";

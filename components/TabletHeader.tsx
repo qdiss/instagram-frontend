@@ -13,7 +13,7 @@ const TabletHeader = ({ className }: TabletHeaderProps) => {
   return (
     <aside
       className={cn(
-        "md:flex w-[72px] hidden h-full lg:hidden md:fixed left-0 top-0  border-r flex-col",
+        "md:flex w-[72px] hidden h-full lg:hidden md:fixed left-0 top-0  border-r flex-col overflow-hidden",
         className
       )}
     >

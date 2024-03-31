@@ -19,7 +19,7 @@ const Sidebar = ({ className }: SidebarProps) => {
   return (
     <aside
       className={cn(
-        "flex h-full lg:w-[245px] lg:fixed left-0 top-0 px-4 border-r flex-col",
+        "flex h-full lg:w-[245px] lg:fixed left-0 top-0 px-4 border-r flex-col md:hidden",
         className
       )}
     >
